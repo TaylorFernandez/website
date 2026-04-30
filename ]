@@ -1,0 +1,12 @@
+function MainRow() {
+	return (
+		<div className="column" style={{ height: "50vh" }}>
+			<div className="row align-items-center h-100">
+				<label>This should be in the center of the screen</label>
+			</div>
+		</div>
+
+	);
+}
+
+export default MainRow;

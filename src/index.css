@@ -1,0 +1,13 @@
+nav {
+	background-color: white;
+}
+
+.main-content-background {
+	background: #8fd6f2;
+	background: linear-gradient(90deg, rgba(143, 214, 242, 1) 0%, rgba(223, 242, 232, 1) 58%, rgba(245, 245, 245, 1) 100%);
+}
+
+.main-text {
+	color: gray;
+	font-size: 64px;
+}
