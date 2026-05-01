@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
 function Header() {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-			<div className="container-fluid">			<Link className="navbar-brand ps-5" to="/">
-				Engineer.Dev
-			</Link>
+		<nav className="navbar navbar-expand-lg navbar-light bg-light">
+			<div className="container-fluid">
+				<Link className="navbar-brand ps-5" to="/">
+					Engineer.Dev
+				</Link>
 				<button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" area-controls="navbarSupportedContent" area-expanded="false" area-label="Toggle Navigation">
 					<span className="navbar-toggler-icon"></span>
 				</button>
