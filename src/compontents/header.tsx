@@ -11,17 +11,16 @@ function Header() {
 				</button>
 
 				<div className="collapse justify-content-center navbar-collapse ps-0 ms-0" id="navbarSupportedContent">
-					<ul className="navbar-nav mr-auto">
+					<ul className="navbar-nav mr-auto space-between gx-5">
 						<Link className="nav-link" to="/projects">Projects</Link>
 						<Link className="nav-link" to="/experience">Experience</Link>
-						<Link className="nav-link" to="/techstack">Tech Stacks</Link>
 						<Link className="nav-link" to="/contact">Contact</Link>
 
 					</ul>
 				</div>
 
 				<div>
-					<Link className="btn btn-primary  me-5" to="https://github.com/TaylorFernandez">Visit My GitHub</Link>			</div>	</div>
+					<Link className="btn btn-primary  me-5" to="https://github.com/TaylorFernandez" target="_blank">Visit My GitHub</Link>			</div>	</div>
 
 		</nav>
 	);

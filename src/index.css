@@ -4,17 +4,19 @@ nav {
 
 .main-content-background {
 	background: #8fd6f2;
-	background: linear-gradient(90deg, rgba(223, 242, 232, 1) 0%, rgba(245, 245, 245, 1) 58%,rgba(143, 214, 242, 1) 100%);
+	background: linear-gradient(90deg, rgba(223, 242, 232, 1) 0%, rgba(245, 245, 245, 1) 58%, rgba(143, 214, 242, 1) 100%);
 }
-html, body {
+
+html,
+body {
 	overflow-x: hidden;
 }
 
-.page{
+.page {
 	background-color: #f8f9fa !important;
 }
 
-.content-background{
+.content-background {
 	background-color: white;
 	height: 75vh;
 	border: 1px transparent;
@@ -22,7 +24,7 @@ html, body {
 	overflow: hidden;
 }
 
-.page > .row {
+.page>.row {
 	overflow: hidden;
 }
 
@@ -36,4 +38,11 @@ html, body {
 	width: 100%;
 	max-height: 100%;
 	object-fit: cover;
+}
+
+.footer-link a {
+	all: unset;
+	cursor: pointer;
+	color: black;
+	text-decoration: none;
 }
