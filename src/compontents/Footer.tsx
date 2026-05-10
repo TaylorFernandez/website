@@ -15,7 +15,7 @@ const Footer = () => {
 
 			</div>
 			<div className="col-md-2 footer-link">
-				<Link to="https://github.com/TaylorFernandez/personal-website" target="_blank">Source Code</Link>
+				<Link to="https://github.com/TaylorFernandez/website" target="_blank">Source Code</Link>
 
 			</div>
 			<div className="col-md-2 footer-link">
