@@ -20,7 +20,7 @@ const Project = ({ title, description, url, clone_url, languages, stars, clones,
 	return (
 		<motion.div className="col" whileHover={{ scale: 1.03 }}>
 			<div className="project-card card h-100">
-				<div className="card-body">
+				<div className="card-body d-flex flex-column">
 					<div className="d-flex justify-content-between align-items-start mb-3">
 						<div className="p-2 rounded">
 							<FaRegFolder />
@@ -36,15 +36,15 @@ const Project = ({ title, description, url, clone_url, languages, stars, clones,
 					</div>
 					<h5 className="card-title">{title}</h5>
 					<p className="card-text">{description}</p>
-					<div className="container-fluid">
+					<div className="container-fluid mb-2">
 						<div className="row row-cols-1 row-cols-md-2 row-cols-xl-5 g-3">
 							{languageList.map((language) =>
 								<span className="badge rounded-pill text-bg-primary" key={language}>{language}</span>
 							)}
 						</div>
 					</div>
-					<hr />
-					<div className="d-flex justify-content-between align-items-start mb-3">
+					<hr className="mt-auto" />
+					<div className="d-flex justify-content-between align-items-start mb-3 mt-2">
 						<div className="p2">
 							<FaCode />
 							<label className="ps-2">{languageList[0]}</label>
